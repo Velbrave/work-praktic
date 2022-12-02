@@ -1,5 +1,5 @@
-import { Bank } from "./Bank"
-import { saveToLS, loadFromLS } from "./localstorage";
+import { Bank } from "./bank/Bank"
+import { saveToLS, loadFromLS } from "./bank/localstorage";
 
 const privatBank = new Bank()
 
